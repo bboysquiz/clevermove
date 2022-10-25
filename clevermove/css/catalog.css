@@ -1,0 +1,99 @@
+.catalog {
+  padding-top: 36px;
+  position: relative;
+  min-height: 100%;
+  padding-bottom: 361px; }
+  .catalog_products {
+    margin-top: 28px; }
+  .catalog__product {
+    margin-bottom: 14px;
+    margin-right: 14px; }
+  .catalog__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+
+.products {
+  width: 728px;
+  margin-top: 28px; }
+  .products__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+
+.product {
+  width: 228px;
+  height: 228px;
+  border-radius: 4px;
+  background-color: #f7f7f7; }
+  .product__title {
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 400;
+    color: #5b5b5b;
+    letter-spacing: 0.35px;
+    text-align: center;
+    margin-top: 16px; }
+  .product__img {
+    width: 194px;
+    height: 145px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    margin-top: 16px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    overflow: hidden; }
+
+.breakcrumbs {
+  list-style-type: none; }
+  .breakcrumbs li {
+    display: inline-block; }
+    .breakcrumbs li a {
+      text-decoration: none;
+      color: #5b5b5b;
+      font-family: Montserrat;
+      font-size: 16px;
+      font-weight: 400;
+      letter-spacing: 0.4px; }
+    .breakcrumbs li:first-child::before {
+      display: none; }
+    .breakcrumbs li::before {
+      content: '/\00a0'; }
+
+.title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .title__catalog {
+    width: 250px; }
+  .title h3, .title h2 {
+    color: #5b5b5b;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 0.32px; }
+  .title_page-catalog {
+    width: 356px;
+    margin-top: 6px; }
+
+.right-column {
+  margin-top: 14px; }

@@ -1,0 +1,107 @@
+.header
+ background-color: #ff9d00
+ &__ul
+  &_mobile
+   display: none
+ &__container
+  width: 1140px
+  height: 48px
+  background-color: #ff9d00
+  display: flex
+  margin: 0 auto
+ &__nav
+  width: 697px
+  margin-top: 15px
+  &_mobile
+   display: none
+ &__ul
+  display: flex
+  justify-content: space-between
+  list-style-type: none
+ &__li
+  position: relative
+  height: 31px 
+  &-ul
+   display: none
+   position: absolute
+  &:hover ul
+   z-index: 100
+   margin-top: 12px
+   display: block
+  &-li
+   background-color: #ffa820
+   height: 53px
+   width: 345px 
+   list-style: none
+   &:hover
+    transition: 0.5s
+    background-color: #ffb542
+  &-li-a
+   text-decoration: none
+   color: #ffffff
+   font-family: Montserrat
+   font-size: 16px
+   font-weight: 400
+   line-height: 50px
+   letter-spacing: 0.4px
+   margin-left: 15px
+ &__a
+  text-decoration: none
+  color: #ffffff
+  font-family: Montserrat
+  font-size: 16px
+  font-weight: 400
+  letter-spacing: 0.8px
+  &:hover
+   transition: 0.5s
+   color: #ffc263
+  &_ul
+   &:after
+    content: url(../img/home/header/ul.png)
+    margin-left: 4px
+   &:hover:after
+    content: url(../img/home/header/ul_hover.png)
+    margin-left: 4px
+ &__search
+  margin-top: 10px
+  margin-left: 49px
+ &__input-search
+  border: none
+  outline: none
+  width: 142px
+  opacity: 0.29
+  color: #5b5b5b
+  font-family: Montserrat
+  font-size: 14px
+  font-weight: 400
+  letter-spacing: 0.35px
+  margin-left: 9px
+ &__input-submit
+  border: none
+  background: url(../img/home/header/search.png) center no-repeat
+  width: 16px
+  height: 16px
+  margin-left: 7px
+ &__form
+  background: #fff
+  width: 174px
+  height: 28px
+  border-radius: 4px
+  display: flex
+  align-items: center
+ &__user
+  margin-left: 46px
+  display: flex
+  align-items: center
+  &-a
+   color: #ffffff
+   font-family: Montserrat
+   font-size: 16px
+   font-weight: 400
+   letter-spacing: 0.16px
+   text-decoration: none
+   margin-left: 10px
+ &__logo_mobile
+  display: none
+ &__shopping-cart_mobile
+  display: none
